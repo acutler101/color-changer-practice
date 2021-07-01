@@ -12,4 +12,3 @@ for (let i = 0; i < button.length; i++) {
     document.body.style.backgroundColor = button[i].textContent;
   });
 }
-console.log('Hello World!');
