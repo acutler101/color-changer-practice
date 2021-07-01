@@ -1,6 +1,9 @@
 'use strict';
 const button = document.getElementsByClassName('btn');
 const randomButton = document.getElementById('btn-random');
+const newFeature = function () {
+  console.log('Welcome to my app!');
+};
 
 randomButton.addEventListener('click', function () {
   let randomColor = Math.floor(Math.random() * 16777215).toString(16);
@@ -12,4 +15,5 @@ for (let i = 0; i < button.length; i++) {
     document.body.style.backgroundColor = button[i].textContent;
   });
 }
-console.log('Hello World!');
+
+newFeature();
