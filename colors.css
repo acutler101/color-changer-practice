@@ -1,0 +1,35 @@
+body {
+  background-color: grey;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 25px;
+  width: 150px;
+}
+
+#btn-random {
+  border-radius: 25px;
+  width: 150px;
+  grid-column-start: 2;
+}
+
+#button-grid {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 0.15fr;
+  grid-template-rows: 30px 30px 30px 30px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
