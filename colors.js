@@ -1,7 +1,6 @@
 'use strict';
 const button = document.getElementsByClassName('btn');
 const randomButton = document.getElementById('btn-random');
-const newFeature = function () {};
 
 randomButton.addEventListener('click', function () {
   let randomColor = Math.floor(Math.random() * 16777215).toString(16);
